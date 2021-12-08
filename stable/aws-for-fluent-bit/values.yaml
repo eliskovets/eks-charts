@@ -137,7 +137,7 @@ tolerations: []
 
 affinity: {}
 
-annotations: {}
+annotations:
   cluster-autoscaler.kubernetes.io/safe-to-evict: "true"
   # iam.amazonaws.com/role: arn:aws:iam::123456789012:role/role-for-fluent-bit
   
